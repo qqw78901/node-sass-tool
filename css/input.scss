@@ -1,0 +1,16 @@
+html,
+body {
+  font-size: 62.5%;
+}
+@function rem($val) {
+  @return $val/108*1rem;
+}
+
+.bg {
+  width: rem(56);
+  .header{
+    box-shadow: none;
+    width:14px;
+  }
+}
+

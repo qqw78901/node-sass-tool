@@ -1,0 +1,14 @@
+html,
+body {
+  font-size: 62.5%;
+}
+
+.bg {
+  width: 0.51852rem;
+}
+
+.bg .header {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 14px;
+}

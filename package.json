@@ -1,0 +1,18 @@
+{
+    "name": "toolkit",
+    "version": "1.0.0",
+    "description": "scss to css",
+    "main": "index.js",
+    "scripts": {
+        "change": "postcss --config postcss.config.js",
+        "build-css": "node build-scss"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "autoprefixer": "^7.1.2",
+        "node-sass": "^4.5.3",
+        "postcss": "^6.0.8"
+    }
+}
