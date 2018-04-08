@@ -8,3 +8,22 @@ node-sass的使用demo，方便在不使用webpack的时候直接编译scss；�
 
 >npm run build-css
 
+### 后续补充
+```text
+├── build-scss.js
+├── css
+├── node_modules
+├── package.json
+├── postcss.config.js
+├── README.MD
+└── scss.config.js 输入输出css的路径
+
+```
+### 功能就是做个sass编译，postcss处理
+
+**postcss.config.js是post-css模拟scss编译 试验品，因为并不是真正的scss编译，有一些语法都不支持比如@function,所以就废弃了**
+
+### 运行方式
+
+- 在scss.config.js里配置输入输出的样式文件路径
+- npm run build-css
